@@ -68,6 +68,6 @@ owned by Reha Demircan — Coffee Hawai, since 2012
 <img width="400" height="858" alt="Screenshot 2026-06-18 224831" src="https://github.com/user-attachments/assets/4cc74fa6-c37f-4fe4-89f7-e5008f7718ed" />
 
 
+<img width="406" height="862" alt="Screenshot 2026-06-18 225140" src="https://github.com/user-attachments/assets/3a1e0f39-c2af-438c-8360-a035f8758fa1" />
 
-<img width="510" height="913" alt="Screenshot 2026-06-18 224857" src="https://github.com/user-attachments/assets/d9931ceb-9a0e-4568-83ff-a0c0553fcd05" />
 
