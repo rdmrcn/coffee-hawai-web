@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Hawai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="device-stage">
+    <div class="iphone-frame">
+      <div class="iphone-notch" aria-hidden="true"></div>
+      <div class="iphone-screen">
+        <div class="app-shell">
+          <header class="top-bar hidden" id="topBar">
+            <button class="icon-btn" id="backBtn" aria-label="Back">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <div class="top-title-wrap">
+              <h1 class="top-title" id="pageTitle">Coffee Hawai</h1>
+              <span class="hawaii-leaf hawaii-leaf--nav" aria-hidden="true">
+                <svg viewBox="0 0 64 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="leafGradNav" x1="32" y1="4" x2="32" y2="68" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#52B788"/><stop offset="0.4" stop-color="#40916C"/>
+                      <stop offset="0.75" stop-color="#2D6A4F"/><stop offset="1" stop-color="#C4A35A"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M28 4C14 14 6 32 10 50C12 60 20 66 28 64C36 66 44 60 46 50C50 32 42 14 28 4Z" fill="url(#leafGradNav)"/>
+                  <path d="M28 8V64" stroke="#1B4332" stroke-opacity="0.4" stroke-width="1.2" stroke-linecap="round"/>
+                  <path d="M28 18L8 28M28 18L48 28M28 34L12 44M28 34L44 44M28 48L16 54M28 48L40 54" stroke="#1B4332" stroke-opacity="0.35" stroke-width="1" stroke-linecap="round"/>
+                  <ellipse cx="22" cy="38" rx="3.5" ry="5" fill="white" fill-opacity="0.22"/>
+                  <ellipse cx="36" cy="44" rx="3" ry="4.5" fill="white" fill-opacity="0.18"/>
+                </svg>
+              </span>
+            </div>
+            <button class="icon-btn cart-btn" id="cartBtn" aria-label="Cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+              <span class="cart-badge hidden" id="cartBadge">0</span>
+            </button>
+          </header>
+
+          <main id="app">
+            <!-- HOME — Dominik-style layout -->
+            <section class="screen active" id="homeScreen">
+              <div class="home-header">
+                <div class="home-header-inner">
+                  <div class="home-brand">
+                    <span class="home-logo">☕</span>
+                    <div>
+                      <div class="brand-name-row">
+                        <h1 class="home-brand-name">Coffee Hawai</h1>
+                        <span class="hawaii-leaf" aria-hidden="true">
+                          <svg viewBox="0 0 64 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <linearGradient id="leafGradHome" x1="32" y1="4" x2="32" y2="68" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#52B788"/><stop offset="0.4" stop-color="#40916C"/>
+                                <stop offset="0.75" stop-color="#2D6A4F"/><stop offset="1" stop-color="#C4A35A"/>
+                              </linearGradient>
+                            </defs>
+                            <path d="M28 4C14 14 6 32 10 50C12 60 20 66 28 64C36 66 44 60 46 50C50 32 42 14 28 4Z" fill="url(#leafGradHome)"/>
+                            <path d="M28 8V64" stroke="#1B4332" stroke-opacity="0.4" stroke-width="1.2" stroke-linecap="round"/>
+                            <path d="M28 18L8 28M28 18L48 28M28 34L12 44M28 34L44 44M28 48L16 54M28 48L40 54" stroke="#1B4332" stroke-opacity="0.35" stroke-width="1" stroke-linecap="round"/>
+                            <ellipse cx="22" cy="38" rx="3.5" ry="5" fill="white" fill-opacity="0.22"/>
+                            <ellipse cx="36" cy="44" rx="3" ry="4.5" fill="white" fill-opacity="0.18"/>
+                          </svg>
+                        </span>
+                      </div>
+                      <p class="home-brand-tag">Fresh. Bold. Hawaiian.</p>
+                    </div>
+                  </div>
+                  <button class="home-cart-btn" id="cartBtnHome" aria-label="Cart">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                    <span class="cart-badge hidden" id="cartBadgeHome">0</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="home-body">
+                <h2 class="welcome-title">Welcome to Coffee Hawai! ☕</h2>
+                <p class="welcome-text">Handcrafted Hawaiian coffees made with love. From volcanic soil beans to your perfect cup.</p>
+
+                <div class="promo-card">
+                  <img src="assets/coffees/01_kona.jpg" alt="Today's Special" />
+                  <div class="promo-overlay">
+                    <strong>Today's Special</strong>
+                    <span>Order any large drink and get 20% off!</span>
+                  </div>
+                </div>
+
+                <button class="cta-btn cta-primary" id="goCatalogBtn">
+                  View Menu
+                </button>
+                <button class="cta-btn cta-secondary" id="exploreBtn">
+                  Explore Coffees
+                </button>
+
+                <div class="home-meta">
+                  <p class="pickup-meta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    Pickup time: 15–20 minutes
+                  </p>
+                </div>
+
+                <div class="shop-footer">
+                  <button class="locations-chip" id="locationsBtnHome" type="button">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Locations
+                  </button>
+                  <p class="since-footer">since 2012</p>
+                  <p class="owner-footer">owned by Reha Demircan</p>
+                </div>
+              </div>
+            </section>
+
+            <section class="screen" id="listScreen">
+              <div class="search-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                <input type="search" id="searchInput" placeholder="Search coffee..." />
+              </div>
+              <div class="filters" id="filterBar"></div>
+              <div class="product-grid" id="productGrid"></div>
+              <p class="empty-state hidden" id="emptyState">No matching drinks found.</p>
+              <div class="shop-footer">
+                <button class="locations-chip" id="locationsBtnMenu" type="button">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Locations
+                </button>
+                <p class="since-footer">since 2012</p>
+                <p class="owner-footer">owned by Reha Demircan</p>
+              </div>
+            </section>
+
+            <section class="screen" id="detailScreen">
+              <div class="detail-image-wrap">
+                <img id="detailImage" alt="" />
+                <div class="detail-overlay">
+                  <span id="detailEmoji"></span>
+                  <span class="detail-category" id="detailCategory"></span>
+                </div>
+              </div>
+              <div class="detail-content">
+                <h2 id="detailName"></h2>
+                <p class="tagline" id="detailTagline"></p>
+                <p class="price" id="detailPrice"></p>
+                <h3>Story</h3>
+                <p id="detailDescription"></p>
+                <h3>Profile</h3>
+                <ul class="spec-list" id="detailSpecs"></ul>
+              </div>
+              <div class="detail-actions">
+                <div class="qty-control hidden" id="qtyControl">
+                  <button class="qty-btn" id="qtyMinus">-</button>
+                  <span id="qtyValue">0</span>
+                  <button class="qty-btn" id="qtyPlus">+</button>
+                </div>
+                <button class="primary-btn flex-1" id="addToCartBtn">Add to Cart</button>
+              </div>
+            </section>
+
+            <section class="screen" id="cartScreen">
+              <div class="cart-empty hidden" id="cartEmpty">
+                <span class="cart-empty-icon">☕</span>
+                <h3>Your cart is empty</h3>
+                <p>Browse our menu and add your favorite drinks.</p>
+                <button class="cta-btn cta-primary" id="browseFromCartBtn">Browse Menu</button>
+              </div>
+              <div class="cart-content" id="cartContent">
+                <div class="cart-items" id="cartItems"></div>
+                <div class="cart-summary">
+                  <div class="summary-row"><span>Subtotal</span><span id="subtotalValue">$0.00</span></div>
+                  <div class="summary-row"><span>Delivery Fee</span><span id="deliveryValue">$2.99</span></div>
+                  <div class="summary-divider"></div>
+                  <div class="summary-row total-row"><span>Total</span><span id="totalValue">$0.00</span></div>
+                  <button class="complete-btn" id="completeOrderBtn">Complete Order</button>
+                  <p class="pickup-note">Estimated pickup: 15–20 minutes</p>
+                </div>
+              </div>
+            </section>
+          </main>
+
+          <div class="home-indicator" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <dialog class="locations-dialog" id="locationsDialog">
+    <div class="locations-panel">
+      <p class="locations-heading">Locations are in</p>
+      <ul class="locations-list" id="locationsList"></ul>
+      <p class="owner-footer dialog-owner">owned by Reha Demircan</p>
+      <button class="locations-close" id="closeLocationsBtn" type="button">Close</button>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
