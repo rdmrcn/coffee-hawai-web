@@ -1,65 +1,142 @@
-# Coffee Hawai — Mini Catalog (Web)
+# Coffee Hawai — Mini Catalog Application
 
-**Student:** Reha Demircan  
-**Project:** Flutter Mini Catalog — Coffee Hawai coffee shop catalog  
-**Platform:** Web (Chrome mobile view) — approved by instructor
+A modern coffee shop catalog application developed as part of the Flutter Mini Catalog Project.
 
-Hawaiian-themed coffee catalog with home, menu, product detail, cart, and locations.
+---
 
-## Quick Start
+## Project Information
+
+**Student:** Reha Demircan
+**Course:** Flutter Weekly Training
+**Project Type:** Mini Catalog Application
+**Theme:** Hawaiian Coffee Shop
+**Platform:** Web (Chrome Mobile View)
+
+---
+
+## Project Overview
+
+Coffee Hawai is a coffee catalog application that allows users to browse products, search coffees, view detailed product information, manage a shopping cart, and explore store locations.
+
+The project demonstrates core application development concepts including navigation, data management, user interface design, asset handling, and state management.
+
+---
+
+## Main Features
+
+* Home Screen
+* Product Catalog
+* Product Detail Pages
+* Shopping Cart Simulation
+* Search Functionality
+* Category Filtering
+* Page Navigation
+* JSON-Based Product Data
+* Asset Management
+* Responsive Mobile Layout
+
+---
+
+## Project Structure
+
+```text
+index.html
+styles.css
+app.js
+
+assets/
+├── products.json
+└── coffees/
+
+screenshots/
+├── home-screen.png
+├── catalog-screen.png
+└── detail-screen.png
+```
+
+---
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* JSON Data Simulation
+* Chrome Developer Tools
+
+---
+
+## Running the Project
+
+### Start Local Server
 
 ```bash
 npx serve -l 8080 .
 ```
 
-Open: **http://localhost:8080**
+### Open Browser
 
-> Do not open `index.html` directly. A local server is required.
-
-## Chrome Mobile View (for review)
-
-1. `F12` → `Ctrl + Shift + M`
-2. Select **iPhone 14**
-3. Browse: Home → Menu → Detail → Cart
-
-## Project Structure
-
-```
-index.html
-styles.css
-app.js
-assets/
-  products.json       12 coffee items (JSON simulation)
-  coffees/            12 product images
-screenshots/          App screenshots for submission
+```text
+http://localhost:8080
 ```
 
-## Features (PDF requirements)
+> Do not open index.html directly. A local server is required.
 
-| Requirement | Status |
-|---|---|
-| Home page | ✅ |
-| Product list (GridView-style grid) | ✅ |
-| Product detail | ✅ |
-| Page navigation | ✅ |
-| JSON + model data (`products.json`) | ✅ |
-| Search & filter | ✅ |
-| Cart state (add, qty, total) | ✅ |
-| Asset management (images + JSON) | ✅ |
-| Screenshots | 📁 Add to `screenshots/` |
+---
 
-## Tech
+## Mobile Review Instructions
 
-- HTML, CSS, JavaScript
-- No build step required
-- Node.js only for local server (`npx serve`)
+1. Open Google Chrome
+2. Press F12
+3. Enable Device Toolbar (Ctrl + Shift + M)
+4. Select iPhone 14
+5. Review application screens
+
+Navigation Flow:
+
+Home → Menu → Product Detail → Cart
+
+---
+
+## Screenshots
+
+### Home Screen
+
+Insert Screenshot 01
+
+### Product Catalog
+
+Insert Screenshot 02
+
+### Product Detail / Cart
+
+Insert Screenshot 03
+
+---
+
+## Learning Outcomes
+
+* User Interface Design
+* Page Navigation
+* JSON Data Handling
+* Asset Management
+* Product Modeling
+* Search and Filtering
+* Basic State Management
+* Responsive Layout Design
+
+---
 
 ## Author
 
-owned by Reha Demircan — Coffee Hawai, since 2012
+Reha Demircan
 
+Digital Game Design Student
 
-## Project Wiev
+Istinye University
+
+2026
+
 
 
 <img width="410" height="862" alt="Screenshot 2026-06-18 223541" src="https://github.com/user-attachments/assets/dd3e47d9-afde-41a8-aefc-90dd77cd5dfe" />
