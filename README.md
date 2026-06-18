@@ -100,19 +100,21 @@ Home → Menu → Product Detail → Cart
 
 ## Screenshots
 
+
+---
 ### Home Screen
 
-Insert Screenshot 01
+<img width="410" height="862" alt="Screenshot 2026-06-18 223541" src="https://github.com/user-attachments/assets/dd3e47d9-afde-41a8-aefc-90dd77cd5dfe" />
 
 ### Product Catalog
 
-Insert Screenshot 02
+<img width="400" height="858" alt="Screenshot 2026-06-18 224831" src="https://github.com/user-attachments/assets/4cc74fa6-c37f-4fe4-89f7-e5008f7718ed" />
 
 ### Product Detail / Cart
 
-Insert Screenshot 03
+<img width="406" height="862" alt="Screenshot 2026-06-18 225140" src="https://github.com/user-attachments/assets/3a1e0f39-c2af-438c-8360-a035f8758fa1" />
 
----
+
 
 ## Learning Outcomes
 
@@ -125,26 +127,7 @@ Insert Screenshot 03
 * Basic State Management
 * Responsive Layout Design
 
----
-
 ## Author
 
 Reha Demircan
-
-Digital Game Design Student
-
-Istinye University
-
-2026
-
-
-
-<img width="410" height="862" alt="Screenshot 2026-06-18 223541" src="https://github.com/user-attachments/assets/dd3e47d9-afde-41a8-aefc-90dd77cd5dfe" />
-
-
-<img width="400" height="858" alt="Screenshot 2026-06-18 224831" src="https://github.com/user-attachments/assets/4cc74fa6-c37f-4fe4-89f7-e5008f7718ed" />
-
-
-<img width="406" height="862" alt="Screenshot 2026-06-18 225140" src="https://github.com/user-attachments/assets/3a1e0f39-c2af-438c-8360-a035f8758fa1" />
-
 
